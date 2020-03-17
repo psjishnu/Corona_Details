@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Node Sample App</title>
+
+	<!-- CSS -->
+	<!-- load bootstrap and our own personal stylesheet -->
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="index.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>CORONA UPDATES</h1>
+		<h2>_<%= result%>_</h2>
+	<form id="form1">
+		<label for=""> Country <input type="text" id="id1" name="name" placeholder="First letter in Capital" required="required"/></label>
+		<p style="font-size: 30px;">Please choose an option</p>
+		<label>Deaths <input type="radio" id="case1" name="opt" value="deaths" required="required"/></label><br>
+		<label>Confirmed cases  <input type="radio" id="case2" name="opt" value="confirmed"/></label><br>
+		<label>Recovered <input type="radio" id="case3" name="opt" value="recovered"/></label><br>
+		<label>Latest Cases <input type="radio" id="case4" name="opt" value="latest"/></label><br>
+		<input type="button" onclick="fun1()" value="submit"/>
+	  </form>
+
+</div>
+	
+</body>
+</html>

@@ -48,21 +48,3 @@ for i in range (0,x) :
                         sum=sum+int(y[j1+9:l1-1])
                         break
 print(sum)
-
-
-#print(soup.prettify()) 
-
-
-"""
-
-# Takes first name and last name via command 
-# line arguments and then display them 
-print("Output from Python") 
-
-print("First name: " + sys.argv[1]) 
-print("Last name: " + sys.argv[2]) 
-x=int(sys.argv[1])+int(sys.argv[2])
-print("SUM IS :",x)
- """
-
-# save the script as hello.py 

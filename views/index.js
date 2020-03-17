@@ -3,7 +3,7 @@ function fun1(){
     var rd1 = document.getElementById("case1");
     var rd2 =document.getElementById("case2");
     var rd3 = document.getElementById("case3");
-    var rd4 =document.getElementById("case4");
+    
     if(rd1.checked==true){
         name2=rd1.value;
     }

@@ -16,18 +16,20 @@
 <div class="container">
 	<div class="jumbotron">
 		<h1>CORONA UPDATES</h1>
-		<h2>_<%= result%>_</h2>
 	<form id="form1">
+		<div id="ansr">
+		<p><%= result%></p>
+		</div>
+		<br><br>
 		<label for=""> Country <input type="text" id="id1" name="name" placeholder="First letter in Capital" required="required"/></label>
 		<p style="font-size: 30px;">Please choose an option</p>
-		<label>Deaths <input type="radio" id="case1" name="opt" value="deaths" required="required"/></label><br>
+		<label>Deaths <span>  </span> <input type="radio" id="case1" name="opt" value="deaths" required="required"/></label><br>
 		<label>Confirmed cases  <input type="radio" id="case2" name="opt" value="confirmed"/></label><br>
 		<label>Recovered <input type="radio" id="case3" name="opt" value="recovered"/></label><br>
-		<label>Latest Cases <input type="radio" id="case4" name="opt" value="latest"/></label><br>
 		<input type="button" onclick="fun1()" value="submit"/>
 	  </form>
 
-</div>
-	
+	</div>
+</div>	
 </body>
 </html>

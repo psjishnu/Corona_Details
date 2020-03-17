@@ -13,8 +13,6 @@ function fun1(){
     else if(rd3.checked==true){
         name2=rd3.value;
     }
-    else
-        name2=rd4.value;
     console.log(name2);
     window.location.href='\\name?firstname='+name1+'&lastname='+name2;
 

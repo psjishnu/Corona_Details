@@ -35,10 +35,6 @@ function callName(req, res) {
 		{
 			msg=sum+" people died in "+req.query.firstname;
 		}
-		if(req.query.lastname=="latest")
-		{
-			msg=sum+" people are affected with Corona in "+req.query.firstname
-		}
 		if(req.query.lastname=="confirmed")
 		{
 			msg="There are "+sum+" confirmed cases of Corona in "+req.query.firstname;

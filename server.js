@@ -52,5 +52,5 @@ function callName(req, res) {
 } 
 
 app.listen(port, function() {
-	console.log('Our app is running on http://localhost:' + port);
+	console.log('Corona details is running on http://localhost:' + port);
 });

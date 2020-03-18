@@ -3,7 +3,7 @@ function fun1(){
     var rd1 = document.getElementById("case1");
     var rd2 =document.getElementById("case2");
     var rd3 = document.getElementById("case3");
-    var rd4 =document.getElementById("case4");
+    
     if(rd1.checked==true){
         name2=rd1.value;
     }
@@ -13,8 +13,8 @@ function fun1(){
     else if(rd3.checked==true){
         name2=rd3.value;
     }
-    else
-        name2=rd4.value;
+    
+        
     console.log(name2);
     window.location.href='\\name?firstname='+name1+'&lastname='+name2;
 

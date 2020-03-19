@@ -1,0 +1,23 @@
+2020-03-19T13:36:14.352389+00:00 app[api]: Enable Logplex by user psjishnu13@gmail.com
+2020-03-19T13:36:14.352389+00:00 app[api]: Release v2 created by user psjishnu13@gmail.com
+2020-03-19T13:36:14.233029+00:00 app[api]: Initial release by user psjishnu13@gmail.com
+2020-03-19T13:36:14.233029+00:00 app[api]: Release v1 created by user psjishnu13@gmail.com
+2020-03-19T13:37:46.000000+00:00 app[api]: Build started by user psjishnu13@gmail.com
+2020-03-19T13:38:04.299571+00:00 app[api]: Deploy 5d0bab5a by user psjishnu13@gmail.com
+2020-03-19T13:38:04.299571+00:00 app[api]: Release v3 created by user psjishnu13@gmail.com
+2020-03-19T13:38:04.320328+00:00 app[api]: Scaled to web@1:Free by user psjishnu13@gmail.com
+2020-03-19T13:38:05.000000+00:00 app[api]: Build succeeded
+2020-03-19T13:38:06.598585+00:00 heroku[web.1]: Starting process with command `npm start`
+2020-03-19T13:38:08.380655+00:00 app[web.1]: 
+2020-03-19T13:38:08.380665+00:00 app[web.1]: > node-sample@ start /app
+2020-03-19T13:38:08.380665+00:00 app[web.1]: > node server.js
+2020-03-19T13:38:08.380666+00:00 app[web.1]: 
+2020-03-19T13:38:08.943202+00:00 heroku[web.1]: State changed from starting to up
+2020-03-19T13:38:08.902504+00:00 app[web.1]: Corona details is running on http://localhost:12393
+2020-03-19T13:38:27.443894+00:00 heroku[router]: at=info method=GET path="/" host=coronasearch2020.herokuapp.com request_id=57be136e-023f-4887-b2f9-343cd043cc17 fwd="137.97.98.175" dyno=web.1 connect=1ms service=17ms status=200 bytes=1319 protocol=https
+2020-03-19T13:38:28.135398+00:00 heroku[router]: at=info method=GET path="/index.js" host=coronasearch2020.herokuapp.com request_id=d7d29237-bccb-4b65-b0e9-2e0aa3853cf5 fwd="137.97.98.175" dyno=web.1 connect=1ms service=4ms status=200 bytes=814 protocol=https
+2020-03-19T13:38:28.131359+00:00 heroku[router]: at=info method=GET path="/css/style.css" host=coronasearch2020.herokuapp.com request_id=0133d406-85a4-4bd8-802a-73cbaa5c81a6 fwd="137.97.98.175" dyno=web.1 connect=1ms service=6ms status=200 bytes=1759 protocol=https
+2020-03-19T13:38:35.490536+00:00 heroku[router]: at=info method=GET path="/css/img/welcome.png" host=coronasearch2020.herokuapp.com request_id=ce0cd26b-dbe3-45d3-80d0-cad6f4283527 fwd="137.97.98.175" dyno=web.1 connect=1ms service=4ms status=404 bytes=402 protocol=https
+2020-03-19T13:38:35.579118+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=coronasearch2020.herokuapp.com request_id=aad24007-6065-453d-8031-bd514d928612 fwd="137.97.98.175" dyno=web.1 connect=1ms service=2ms status=404 bytes=394 protocol=https
+2020-03-19T13:39:13.166002+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/name?firstname=India&lastname=deaths" host=coronasearch2020.herokuapp.com request_id=55e550be-0a87-42ab-adce-fe359d869cb3 fwd="137.97.98.175" dyno=web.1 connect=1ms service=30001ms status=503 bytes=0 protocol=https
+Terminate batch job (Y/N)? 

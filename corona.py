@@ -6,7 +6,7 @@ import json
 
 x=(sys.argv[1])
 y=(sys.argv[2])
-"""
+
 country=x
 URL = "https://coronavirus-tracker-api.herokuapp.com/a1"
 URL = URL.replace("a1",y)
@@ -47,5 +47,5 @@ for i in range (0,x) :
                             l1=l1+1
                         sum=sum+int(y[j1+9:l1-1])
                         break
-"""
+
 print(x,y)

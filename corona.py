@@ -48,4 +48,4 @@ for i in range (0,x) :
                         sum=sum+int(y[j1+9:l1-1])
                         break
 
-print(x,y)
+print(sum)

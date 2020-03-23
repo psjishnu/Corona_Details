@@ -1,5 +1,4 @@
 import sys 
-#This will not run on online IDE 
 import requests 
 from bs4 import BeautifulSoup 
 import json
@@ -11,7 +10,9 @@ country=x
 URL = "https://coronavirus-tracker-api.herokuapp.com/a1"
 URL = URL.replace("a1",y)
 r = requests.get(URL) 
+
 soup = BeautifulSoup(r.content, 'html5lib') 
+
 p=soup.prettify()
 p=p.replace("<body>",'')
 p=p.replace("</body>",'')
@@ -22,10 +23,10 @@ p=p.replace("</html>",'')
 
 y = json.loads(p)
 y = json.dumps(y)
-
 y= json.loads(y)
 y=str(y["locations"])
 y=json.dumps(y)
+
 x=0
 length=len(country)
 x=len(y)
